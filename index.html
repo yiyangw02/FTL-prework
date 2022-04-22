@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Light and Sound Game</title>
+    
+    <link rel="stylesheet" href="/style.css" />
+
+   
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+       Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome! Rule: repeat back the pattern by pressing buttons.
+    </p>
+    <img id="p1" src="https://cdn.glitch.global/91140171-5d27-426b-864c-0336cc04a801/p1.jpg?v=1647384746135"/>
+    <img id="p2" src="https://cdn.glitch.global/91140171-5d27-426b-864c-0336cc04a801/p2.jpg?v=1647384755088"/>
+    <img id="p3" src="https://cdn.glitch.global/91140171-5d27-426b-864c-0336cc04a801/p3.jpg?v=1647384767695"/>
+    <img id="p4" src="https://cdn.glitch.global/91140171-5d27-426b-864c-0336cc04a801/p4.jpg?v=1647384778660"/>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1);f1()" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2);f2()" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3);f3()" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4);f4()" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+<!--       Newly added trial -->
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
+      
+    </div>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script scr="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>

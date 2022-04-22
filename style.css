@@ -1,0 +1,100 @@
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+
+body {
+  font-family: helvetica, arial, sans-serif; 
+  margin: 2em;
+  background-color: cornflowerblue;
+  color: white;
+}
+h1{
+  font-family: verdana, arial, sans-serif;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+.hidden{
+  display: none
+}
+#gameButtonArea > button{
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+#button1{
+  background:lightgreen;
+}
+#button1:active, #button1.lit{
+  background:green;
+  border-radius: 80px;
+  
+  
+}
+#button2{
+  background:lightblue;
+}
+#button2:active, #button2.lit{
+  background:blue;
+  border-radius: 80px;
+}
+#button3{
+  background:pink;
+}
+#button3:active, #button3.lit{
+  background:red;
+  border-radius: 80px;
+}
+#button4{
+  background:lightyellow;
+}
+#button4:active, #button4.lit{
+  background:yellow;
+  border-radius: 80px;
+}
+#p1,#p2,#p3,#p4{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width:150px;
+  height:150px;
+  margin:1px;
+  display:none
+}
+
+
+
+#button5{
+  background:Plum;
+}
+#button5:active, #button5.lit{
+  background:Indigo;
+  border-radius: 80px;
+}
+#button6{
+  background:MistyRose;
+}
+#button6:active, #button6.lit{
+  background:Maroon;
+  border-radius: 80px;
+}
+#button7{
+  background:LightSteelBlue;
+}
+#button7:active, #button7.lit{
+  background:DarkBlue;
+  border-radius: 80px;
+}
+#button8{
+  background:PeachPuff;
+}
+#button8:active, #button8.lit{
+  background:Orange;
+  border-radius: 80px;
+}
