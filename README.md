@@ -45,7 +45,8 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 )
 ![](https://user-images.githubusercontent.com/91094256/160331233-d977c97d-a2c1-40cf-aa1b-de4c23d01a07.gif)
 ![](https://user-images.githubusercontent.com/91094256/164799949-cd52cbcf-1b03-470b-8534-878dcc0adf0c.gif)
-The fourth gif is mainly used to present that there are more than four buttons and the button's shape get changed when pressed compared to my original implementation. 
+
+##The fourth gif is mainly used to present that there are more than four buttons and the button's shape get changed when pressed compared to my original implementation. 
 
 
 ## Reflection Questions
