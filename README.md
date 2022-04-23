@@ -73,7 +73,7 @@ First, I would revise the customization for the buttons because the current vers
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://cmu.zoom.us/rec/share/wn6xtN_jx93NYD20H-rSPHr_siLAsCr6ZvH1Nlpypf2VGfjDmdS6taJkA3Bqsue8.5n-OoKJ4FX87r4gv?startTime=1648447768000)
+[My 5-minute Interview Recording](https://cmu.zoom.us/rec/share/4eDrjlDqFRox-IWbh6VXF1RzlitdyiUHwb77St_xN4Qwch8_f6NcX2IaPyPovqmf.CE41wCu2KFW73rXf?startTime=1650691662000)
 
 
 ## License
