@@ -4,7 +4,7 @@
 
 Submitted by: Yi Yang Wei
 
-Time spent: 5 hours spent in total
+Time spent: 10 hours spent in total
 
 Link to project: (code) https://glitch.com/edit/#!/brave-ahead-gallon (game) https://brave-ahead-gallon.glitch.me
 
